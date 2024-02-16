@@ -50,7 +50,7 @@ public class ProductServiceImpl implements ProductService {
         if (product == null) {
             throw new IllegalArgumentException("Product not found with id: " + id);
         }
-
+ 
         product.setName(productDto.getName());
         product.setBrand(productDto.getBrand());
         product.setCategory(productDto.getCategory());
